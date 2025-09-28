@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="aboutIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aboutIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AboutScreenTip" xml:space="preserve">
+    <value>More information about this AddIn</value>
+  </data>
+  <data name="AddInName" xml:space="preserve">
+    <value>a11y pdf</value>
+  </data>
+  <data name="Alternativtext" xml:space="preserve">
+    <value>alternative text </value>
+  </data>
+  <data name="AlternativtextForImage" xml:space="preserve">
+    <value>Alternativ text for Image</value>
+  </data>
+  <data name="AnimatedShape" xml:space="preserve">
+    <value>Animated Element</value>
+  </data>
+  <data name="CloseText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ContainsAutoShape" xml:space="preserve">
+    <value>Contaitns AutoShape</value>
+  </data>
+  <data name="DamagedLink" xml:space="preserve">
+    <value>Damaged Link</value>
+  </data>
+  <data name="DescriptionForLink" xml:space="preserve">
+    <value>Description for Link</value>
+  </data>
+  <data name="detailsErrorMissingAltText" xml:space="preserve">
+    <value>Image {1} (Slide {0})</value>
+  </data>
+  <data name="DuplicateSlideTitle" xml:space="preserve">
+    <value>Duplicate Title of Slide</value>
+  </data>
+  <data name="FoundProblems" xml:space="preserve">
+    <value>a11y pdf analysis</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="helpIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helpIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HelpScreenTip" xml:space="preserve">
+    <value>Open Help window</value>
+  </data>
+  <data name="inspectIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inspectIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>a11y pdf Export</value>
+  </data>
+  <data name="mainTaskPaneText" xml:space="preserve">
+    <value>AddIn for accessible PDF</value>
+  </data>
+  <data name="markAsArtifact" xml:space="preserve">
+    <value>Artifact</value>
+  </data>
+  <data name="MissingAltText" xml:space="preserve">
+    <value>Missing alt text (en-gb)</value>
+  </data>
+  <data name="MissingAltTextForImage" xml:space="preserve">
+    <value>Missing alt text for image (en-gb)</value>
+  </data>
+  <data name="MissingAltTextForLink" xml:space="preserve">
+    <value>Missing alt text for link</value>
+  </data>
+  <data name="MissingAltTextForTable" xml:space="preserve">
+    <value>Missing alt text for table</value>
+  </data>
+  <data name="MissingAltTextForTable1" xml:space="preserve">
+    <value>Missing alt text for table</value>
+  </data>
+  <data name="MissingSlideTitle" xml:space="preserve">
+    <value>Missing Slide title</value>
+  </data>
+  <data name="OpenInspectScreenTip" xml:space="preserve">
+    <value>Check presentation</value>
+  </data>
+  <data name="btnCheckDocument" xml:space="preserve">
+    <value>Check Document</value>
+  </data>
+  <data name="ShowHelpText" xml:space="preserve">
+    <value>Open Help</value>
+  </data>
+  <data name="TextBoxBorder" xml:space="preserve">
+    <value>TextBox with border</value>
+  </data>
+  <data name="TitleOfDocument" xml:space="preserve">
+    <value>Title of Document</value>
+  </data>
+  <data name="btnHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="GroupCreatePdf" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="GroupTools" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="GroupA11yPdf" xml:space="preserve">
+    <value>About </value>
+  </data>
+  <data name="btnMetadata" xml:space="preserve">
+    <value>Edit Metadata</value>
+  </data>
+  <data name="btnReadingOrder" xml:space="preserve">
+    <value>Edit Reading Order</value>
+  </data>
+  <data name="btnAlternativeTexts" xml:space="preserve">
+    <value>Edit Alt Texts</value>
+  </data>
+  <data name="btnPdfExport" xml:space="preserve">
+    <value>Export PDF</value>
+  </data>
+  <data name="btnAbout" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="btnActivateLicense" xml:space="preserve">
+    <value>Activate license</value>
+  </data>
+  <data name="LabelLicenseKey" xml:space="preserve">
+    <value>License Key</value>
+  </data>
+  <data name="LicenseInfoWindowTitle" xml:space="preserve">
+    <value>License information</value>
+  </data>
+  <data name="LabelDeviceId" xml:space="preserve">
+    <value>Device Id</value>
+  </data>
+  <data name="LabelFriendlyName" xml:space="preserve">
+    <value>Friendly Name</value>
+  </data>
+  <data name="LabelMessage" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="DateFormat" xml:space="preserve">
+    <value>MM.dd.yyyy</value>
+  </data>
+  <data name="DemoLicense" xml:space="preserve">
+    <value>Demo license</value>
+  </data>
+  <data name="DemoLicenseExpired" xml:space="preserve">
+    <value>Demo license expired</value>
+  </data>
+  <data name="LabelLicenseName" xml:space="preserve">
+    <value>License Name</value>
+  </data>
+  <data name="LabelDateOfExpiry" xml:space="preserve">
+    <value>Date of Expiry</value>
+  </data>
+  <data name="messageActivationSuccess" xml:space="preserve">
+    <value>Your license is activated now. Please restart PowerPoint.</value>
+  </data>
+  <data name="messageActivationFailure" xml:space="preserve">
+    <value>Your licence could not be activated.</value>
+  </data>
+  <data name="titleMessageActivation" xml:space="preserve">
+    <value>Activation of your license</value>
+  </data>
+  <data name="TextSuccessGeneration" xml:space="preserve">
+    <value>The PDF was generated successfully.</value>
+  </data>
+  <data name="TextGenerationNotPossibleNoLizenz" xml:space="preserve">
+    <value>It is not possible to generate the PDF file because they do not have a valid licence.</value>
+  </data>
+  <data name="chevron_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error-circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShapeTypeChart" xml:space="preserve">
+    <value>Chart</value>
+  </data>
+  <data name="ShapeTypeGroup" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="ShapeTypeImage" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ShapeTypeSmartArt" xml:space="preserve">
+    <value>SmartArt</value>
+  </data>
+  <data name="ShapeTypeTable" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="lbAuthor" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="lbComments" xml:space="preserve">
+    <value>Additional Comments</value>
+  </data>
+  <data name="AddAlternativeText" xml:space="preserve">
+    <value>Add Alternative Text:</value>
+  </data>
+  <data name="AlternativeTextInfoBox" xml:space="preserve">
+    <value>Info: If the picture conveys information, a short alternative text is required. First name the type and then the core message of the image, e.g.: "Logo a11y design", "Photo of the TV tower Berlin", "Drawing of mint", "Art print: Abstract picture by Gerhard Richter".</value>
+  </data>
+  <data name="Alternativetexts" xml:space="preserve">
+    <value>Alternative Texts</value>
+  </data>
+  <data name="MetaData" xml:space="preserve">
+    <value>Metadata</value>
+  </data>
+  <data name="MetaDataInfoBox" xml:space="preserve">
+    <value>Info: An accessible presentation must contain a title. Please add a meaningful title for your presentation so that people can already infer the content from the title.</value>
+  </data>
+  <data name="ReadingOrder" xml:space="preserve">
+    <value>Reading Order</value>
+  </data>
+  <data name="NoErrorsLabel" xml:space="preserve">
+    <value>There are no accessilbility issues in your document.</value>
+  </data>
+  <data name="ReloadErrorList" xml:space="preserve">
+    <value>recheck document</value>
+  </data>
+  <data name="EmptyDataCell" xml:space="preserve">
+    <value>Empty cell in table</value>
+  </data>
+  <data name="EmptyMetaDataTitle" xml:space="preserve">
+    <value>Title not set in meta data</value>
+  </data>
+  <data name="SetMetaDataTitle" xml:space="preserve">
+    <value>Set Title in Metadata</value>
+  </data>
+  <data name="noImagesOnSlide" xml:space="preserve">
+    <value>There are no images on this slide.</value>
+  </data>
+  <data name="LabelEditPane" xml:space="preserve">
+    <value>a11y pdf Tools</value>
+  </data>
+  <data name="CheckReadingOrder" xml:space="preserve">
+    <value>Check Reading Order (slide{0})</value>
+  </data>
+  <data name="btnDocumentHints" xml:space="preserve">
+    <value>Hints</value>
+  </data>
+  <data name="HintAreaDefaultText" xml:space="preserve">
+    <value>Here, you will find notes on some error types as soon as you select them in the error list.</value>
+  </data>
+  <data name="IrregularTable" xml:space="preserve">
+    <value>Irregular table</value>
+  </data>
+  <data name="IrregularTableDescription" xml:space="preserve">
+    <value>This table cointains some empty cells or connected cells (?????)</value>
+  </data>
+  <data name="TableNoAltTextDescription" xml:space="preserve">
+    <value>Add some more details to this table, about what is contained in there.</value>
+  </data>
+  <data name="hintIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hint-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimatedShapeDescription" xml:space="preserve">
+    <value>Please avoid animated objects in your presentations.</value>
+  </data>
+  <data name="Hyperlink" xml:space="preserve">
+    <value>Hyperlink</value>
+  </data>
+  <data name="HyperlinkProblems" xml:space="preserve">
+    <value>There are some problems with this hyperlink [...]</value>
+  </data>
+  <data name="ErrorsAccordeonHeadline" xml:space="preserve">
+    <value>Error List</value>
+  </data>
+  <data name="HintsAccordeonHeadline" xml:space="preserve">
+    <value>Hint List</value>
+  </data>
+  <data name="ReadingOrderDefaultText" xml:space="preserve">
+    <value>Adjust the reading order so that items are retrieved in a meaningful order via a screen reader. Reading order can be changed via drag and drop where the lowest element is the first in the reading order.</value>
+  </data>
+  <data name="ShowReadingOrderText" xml:space="preserve">
+    <value> Show reading order inside the Slide</value>
+  </data>
+  <data name="DemoExport" xml:space="preserve">
+    <value>This is the demo version of a11y PDF. Only five pages will be exported.</value>
+  </data>
+  <data name="MissingAltTextForDiagram" xml:space="preserve">
+    <value>Missing alternative text for chart</value>
+  </data>
+  <data name="MissingAltTextForForm" xml:space="preserve">
+    <value>Missing alternative text for form</value>
+  </data>
+  <data name="MissingAltTextForGroup" xml:space="preserve">
+    <value>Missing alternative text for grouped elements</value>
+  </data>
+  <data name="MissingAltTextForMedia" xml:space="preserve">
+    <value>Missing alternative text for media</value>
+  </data>
+  <data name="MissingAltTextForObject" xml:space="preserve">
+    <value>Missing alternative text for object</value>
+  </data>
+  <data name="MissingAltTextForSmartArt" xml:space="preserve">
+    <value>Missing alternative text for SmartArt</value>
+  </data>
+  <data name="AutoShapeNoAltTextDescription" xml:space="preserve">
+    <value>Please add an alternative text or group the element, in case it belongs to other elements.</value>
+  </data>
+  <data name="EmptyCell" xml:space="preserve">
+    <value>Empty Cell</value>
+  </data>
+  <data name="EmptyCellDescription" xml:space="preserve">
+    <value>Empty cells can lead to confusing tables for people using a screen reader. Please check if you can merge cells or if you can add text such as "no data" to the cell.</value>
+  </data>
+  <data name="EmptyHeaderCell" xml:space="preserve">
+    <value>Empty headline cell</value>
+  </data>
+  <data name="EmptyHeaderCellDescription" xml:space="preserve">
+    <value>Empty cells in areas of the table marked as headings can lead to problems with the comprehensibility of the table. Choose meaningful headings for the assigned cells.</value>
+  </data>
+  <data name="ErrorByControlObjectDescription" xml:space="preserve">
+    <value>Form elements cannot be included in the export. This element is exported as image. Please add an alternative text corresponding to it or convert the object to a standard object (text, image, etc.).</value>
+  </data>
+  <data name="ErrorByEmbeddedObjectDescription" xml:space="preserve">
+    <value>A so-called "embedded object" is handled as an image during export. Please create an alternative text or insert the object directly as a native element (e.g. as a table) if possible.</value>
+  </data>
+  <data name="ErrorByInk" xml:space="preserve">
+    <value>Freehand drawing error</value>
+  </data>
+  <data name="ErrorByInkCommentDescription" xml:space="preserve">
+    <value>Path cannot be captured by the screen reader, please convert the path to an image by right-clicking on the object and then specify an alternative text.</value>
+  </data>
+  <data name="ErrorByInkDescription" xml:space="preserve">
+    <value>If there is a single path object, this should be converted to a graphic. If there are several path objects on a slide that belong together, they should be added to a group. In the next step, an alternative text can then be created for the group.</value>
+  </data>
+  <data name="ErrorByLinkedObjectDescription" xml:space="preserve">
+    <value>A so-called "Linked Object" is handled as an image during export. Please create an alternative text or insert the object directly as a native element (e.g. as a table), if possible.</value>
+  </data>
+  <data name="ErrorByObject" xml:space="preserve">
+    <value>Error due to object</value>
+  </data>
+  <data name="MissingAltTextForNewerVisualContent" xml:space="preserve">
+    <value>Missing alternative text for newer visual content</value>
+  </data>
+  <data name="TemplateBugReportMessage" xml:space="preserve">
+    <value>Do you want to send a bug report via mail?</value>
+  </data>
+  <data name="SendReport" xml:space="preserve">
+    <value>This is a bug report.%0D%0A
+Please attach the powerpoint file to this email.%0D%0A
+Furthermore, please provide information or a step by step explanation on how to reconstruct the error.</value>
+  </data>
+  <data name="NoQuickInfoForLinkHint" xml:space="preserve">
+    <value>For all links without tooltip text, a11y pdf has entered the URL as alternative text. Please adjust the tooltip texts for the respective links if necessary. After rechecking the PowerPoint, these link errors will no longer be displayed.</value>
+  </data>
+  <data name="FontCannotembedInPDF" xml:space="preserve">
+    <value>Font cannot embed in PDF.</value>
+  </data>
+  <data name="incidentFontText" xml:space="preserve">
+    <value>Font causes problems</value>
+  </data>
+  <data name="incidentFontHint" xml:space="preserve">
+    <value>Replace Font</value>
+  </data>
+  <data name="incidentFontTableName" xml:space="preserve">
+    <value>Font issue in table</value>
+  </data>
+  <data name="incidentFontInMaster" xml:space="preserve">
+    <value>Font in Master causes some problems.</value>
+  </data>
+  <data name="incidentFontReplaceInMasterHint" xml:space="preserve">
+    <value>Fonts in master template is replaced.</value>
+  </data>
+  <data name="TextBoxFilled" xml:space="preserve">
+    <value>Colored Textbox without text</value>
+  </data>
+  <data name="TextBoxAltDescription" xml:space="preserve">
+    <value>Textbox has a colored background, but no text is written. Please mark as artifact, enter an altenative text or write something inside the textbox.</value>
+  </data>
+  <data name="NoHintsLabel" xml:space="preserve">
+    <value>There are no more hints available.</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Hint</value>
+  </data>
+  <data name="ScreenshotWebcam" xml:space="preserve">
+    <value>Screenshot Webcam</value>
+  </data>
+  <data name="hasAltText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hasAltText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hasNoAltText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hasNoAltText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="isArtifact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\isArtifact.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a11yPdfElement" xml:space="preserve">
+    <value>a11yPDF element</value>
+  </data>
+  <data name="a11yElementMarkedAsArtifact" xml:space="preserve">
+    <value>a11yPDF Artifact</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="FormTitleErrorChecking" xml:space="preserve">
+    <value>Checking for errors</value>
+  </data>
+  <data name="LabelCheckingXSlidesOfY" xml:space="preserve">
+    <value>Checking {0} slide(s) of {1}</value>
+  </data>
+  <data name="a11y_design_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a11y_design_32x32_new.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSendBugReport" xml:space="preserve">
+    <value>Send Bug Report</value>
+  </data>
+  <data name="RefreshButton" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="lbCopyright" xml:space="preserve">
+    <value>Copyright status</value>
+  </data>
+  <data name="lbKeywords" xml:space="preserve">
+    <value>Keywords; Commas can be used to separate keywords</value>
+  </data>
+  <data name="lbCopyNotice" xml:space="preserve">
+    <value>Copyright Notice</value>
+  </data>
+  <data name="lbCopyUrl" xml:space="preserve">
+    <value>Copyright Info URL</value>
+  </data>
+  <data name="TextBoxBorderHint" xml:space="preserve">
+    <value>Colored textboxes are exported as images. Please write a corrseponding alternativtext.</value>
+  </data>
+  <data name="ExportAbortFileIsOpened" xml:space="preserve">
+    <value>Export is not possible because the PDF file is already open. Close the PDF file.</value>
+  </data>
+  <data name="ShowReadingOrder" xml:space="preserve">
+    <value>Change Reading Order</value>
+  </data>
+  <data name="LicenseExpiresNoDaysLeft" xml:space="preserve">
+    <value>Your Licence has expired.</value>
+  </data>
+  <data name="LicenceKeyBlocked" xml:space="preserve">
+    <value>Your licence is blocked and cannot be activated.</value>
+  </data>
+  <data name="LicenseCatLocalFileLicense" xml:space="preserve">
+    <value>License file</value>
+  </data>
+  <data name="LicenseCatOnlineLicense" xml:space="preserve">
+    <value>Online license</value>
+  </data>
+  <data name="LicenseCatDemoLicense" xml:space="preserve">
+    <value>Demo licence</value>
+  </data>
+  <data name="LicenseCatNoLicense" xml:space="preserve">
+    <value>Please activate a licence.</value>
+  </data>
+  <data name="LicenseCatDemoLicenseExpired" xml:space="preserve">
+    <value>Demo licence is expired.</value>
+  </data>
+  <data name="AlternativeDescriptionForLinkNeeded" xml:space="preserve">
+    <value>Alternative Description for Links is missing</value>
+  </data>
+  <data name="internalLinkToSlide" xml:space="preserve">
+    <value>Internal link to slide </value>
+  </data>
+  <data name="VersionNr" xml:space="preserve">
+    <value>Versionnumber</value>
+  </data>
+  <data name="LicenseLimitReached" xml:space="preserve">
+    <value>No new licence could be activated because the licence limit has been reached.</value>
+  </data>
+  <data name="NoValidLicenseKey" xml:space="preserve">
+    <value>Invalid licence key. Contact us by e-mail at support@a11y-design.de.</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Cannot connect to license server.</value>
+  </data>
+  <data name="CouldNotFindProduct" xml:space="preserve">
+    <value>Could not find the product.</value>
+  </data>
+  <data name="ErrorDuringContactionServer" xml:space="preserve">
+    <value>An error occurred when contacting the license  server.</value>
+  </data>
+  <data name="a11y_design_250x91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a11y_design_250x91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

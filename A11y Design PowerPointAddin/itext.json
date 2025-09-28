@@ -1,0 +1,34 @@
+{
+  "product": "itext-core",
+  "licensee": {
+    "company": "a11y design GbR",
+    "name": "Julian Striegl",
+    "email": "julian.striegl@a11y-design.de"
+  },
+  "key": "2d5089230f84a90cad49fa556e36f751de4bf0ac554ff7a72aba93d496a48c6c",
+  "creationDate": "2022-06-15",
+  "expirationDate": "2023-06-14",
+  "onExpiration": "grace",
+  "gracePeriod": "30d0h0m",
+  "platform": "dotnet",
+  "licenseType": "oem",
+  "deploymentType": "enduser",
+  "productVersion": {
+    "major": 7,
+    "minor": 2
+  },
+  "limits": {
+    "default": {
+      "limitType": "unlimited",
+      "sendEvents": false
+    }
+  },
+  "eventReporting": {
+    "reportingType": [
+      "local"
+    ]
+  },
+  "licenseVersion": "1.0.0",
+  "sendStatistics": "disabled",
+  "signature": "ZQpwmAucHIcHpkmTeigbYXL5ZeRcR9eyXdk6s3PcAqHV7JWT06js2ebr+WeR8+w233aEUIZalBmWY46wZADJD1yKQjGYzY3gWWRYx1J9Zns8ayjPTf+TWSrrgDwwSlIGXwhJDNo/pXHL2mWJIplG2bsv8vudhmLeg4yJj0Woiukh1VJ4FvDSibspBaiR0FsKyQQlLE2XJXfFRFze2OdmurGxNtlgc5UCsqjDTdZ+CEzXZV/rdkbsfxQPY1VkPsk9Y2n7TO865p8n0qdXejIS/i23SPm60wRZSpTklzRR1mz0MBTxqJESEb1Fq0MLAVIyTFydgnz+meRN1bRa15qfjCN8ddTDRfNHVv6QSqCMJdc4tu9KWRcS45BWNr/ylFc9bw+JdoaOjD94vjbpIddIr5QoOZldLgEeBUf3/6PAdMskTgZKA+Mm+MfkMas064+HUu9xCyJFSjT5MfjTBvIdvwxskvDQ0sVWb3YxuwqSzRpRwCUDx0o+HU/yrNR7Fel+AelKoRQrVMQqv7IuzeAGhtRAvew3J7bc0+suyq2AQJUo0ZKEm7DbDFWZKmYRqetWXJJ3HAmZvZcx1t/ob4zD+orJqIggpOD5XMqkByaZOintY7+yTDvXw7F/rAIRdMEjVVXU84tgcXVYAC++RWjcMihF7uU7w2TrKvL/CAtKx+g="
+}

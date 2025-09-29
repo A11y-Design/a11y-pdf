@@ -16,6 +16,7 @@ In order to create an accessible PDF, it is necessary to ensure that various poi
 - and many more
 
 The current version of PowerPoint already includes a very good accessibility check. You can change in a comfort way different things like alternative text reading order.
+The user interface of a11y pdf is implemented with Windows Forms and is not as nicely designed as the integrated user interface of Office. Therefore, you are welcome to use the Office implementation.
 
 ## Requirements for PDF files that are PDF/UA compliant
 
@@ -38,7 +39,3 @@ There two possibilities for running the add-in:
 
 - load the source and compile the add-in by using Visual Studio
 - install the [published installer of the add-in](https://github.com/A11y-Design/a11y-pdf/releases)
-
-
-Die Benutzerboerfläche ist mit Windows Forms umgesetzt und nicht so schön designt, wie die integrierte Benutzungsüberfläche von Office.
-Daher können Sie gern 

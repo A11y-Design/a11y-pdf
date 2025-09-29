@@ -37,7 +37,7 @@ There are three main functions:
 There two possibilities for running the add-in:
 
 - load the source and compile the add-in by using Visual Studio
-- install the published installed of the add-in (TODO_ADD link)
+- install the [published installer of the add-in](https://github.com/A11y-Design/a11y-pdf/releases)
 
 
 Die Benutzerboerfläche ist mit Windows Forms umgesetzt und nicht so schön designt, wie die integrierte Benutzungsüberfläche von Office.

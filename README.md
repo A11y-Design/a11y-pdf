@@ -1,4 +1,4 @@
- # a11y PDF - PowerPoint Addin for an accessible PDF-export
+ # a11y pdf - PowerPoint Addin for an accessible PDF-export
 
 a11y pdf is an add-in for PowerPoint from a11y design GmbH that helps you analyse and improve the accessibility of PowerPoint presentations and allows you to export your presentation as accessible PDFs.
 
@@ -16,7 +16,7 @@ In order to create an accessible PDF, it is necessary to ensure that various poi
 - and many more
 
 The current version of PowerPoint already includes a very good accessibility check. You can change in a comfort way different things like alternative text reading order.
-The user interface of a11y pdf is implemented with Windows Forms and is not as nicely designed as the integrated user interface of Office. Therefore, you are welcome to use the Office implementation.
+Alternatively you can also use the functionalities provided within the a11y pdf add-in. 
 
 ## Requirements for PDF files that are PDF/UA compliant
 
